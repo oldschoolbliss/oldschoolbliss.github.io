@@ -1,0 +1,37 @@
+//META{"name":"BlissGaming","description":"BlissGaming theme","author":"OldSchoolBliss","version":"1.0"}*//
+
+
+:root {
+  --Main-Colour: rgba(155,89,182,1);
+  --Background-Colour: rgba(0,0,0,1);
+  --S-Colour: rgba(0,0,0,.3);
+  --M-Colour: rgba(155,89,182,.5);
+  --Text-Shadow-Colour: rgba(0,0,0,.45);
+  --Scroller-Colour: rgba(155,89,182,0);
+  --Notification-Colour: rgba(155,89,182,1);
+  --Chat-Input-Background: rgba(0,0,0,0);
+  --Chat-Input-Colour: var(--Main-Colour) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --Chat-Background: ;
+  --Settings-Background: ;
+  --Callout-Background: ;
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: "Scratched Up v2";
+  --Chat-Font-Used: ;
+  --Chat-Font-Size: 15px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: var(--Chat-Background) ;
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: var(--S-Colour);
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Settings-Dock-Colour: var(--Main-Colour);
+  --Timestamp-Colour: var(--M-Colour);
+  --Guild-Rows: 2;
+  --SF-Guild-Rows: var(--Guild-Rows);
+  --Chat-Avatar-Border-Radius: 10%;
+  --Background-Brightness: 0.1;
+}
