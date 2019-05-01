@@ -12,7 +12,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url('https://oldschoolbliss.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 :root {
-  --Update-Text: " Update #306 ";
+  --Update-Text: " Yoink ";
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerRed: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -64,53 +64,7 @@ body:before {
   color: var(--Main-Colour);
 }
 
-/* FUCK BETTERDOCS */
-body:after {
-  content: "Do Not Use Betterdocs/Discord Source";
-  background: var(--Background-Colour);
-  border: 1px solid var(--Main-Colour);
-  left: 50%;
-  border-radius: 5px;
-  padding: 5px 15px;
-  transform: translate(-50%, -100%);
-  animation: Notif2 4s ease-in-out, CLog 10s infinite linear;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  height: auto;
-  width: auto;
-  z-index: 9997;
-  color: var(--Main-Colour);
-}
-/* FUCK BETTERDOCS */
 
-[data-name="AccountDetailsPlus"]:after,
-[data-name="AutoStartRichPresence"]:after,
-[data-name="BetterFormattingRedux"]:after,
-[data-name="BetterFriendCount"]:after,
-[data-name="Channel History"]:after,
-[data-name="Character Counter"]:after,
-[data-name="CreationDate"]:after,
-[data-name="Direct-Download"]:after,
-[data-name="Discord Experiments"]:after,
-[data-name="EditUsers"]:after,
-[data-name="Extended Context Menu"]:after,
-[data-name="GoogleTranslateOption"]:after,
-[data-name="Guild Counter"]:after,
-[data-name="JoinedAtDate"]:after,
-[data-name="MemberCount"]:after,
-[data-name="PinDMs"]:after,
-[data-name="PluginRepo"]:after,
-[data-name="Quoter"]:after,
-[data-name="ReverseImageSearch"]:after,
-[data-name="RoleMembers"]:after,
-[data-name="SendLargeMessages"]:after,
-[data-name="ServerFolders"]:after,
-[data-name="ShowHiddenChannels"]:after,
-[data-name="User Avatar And Server Icon Viewer"]:after {
-  content: " (✔) Plugin has Theme Support (✔) ";
-  color: var(--Main-Colour);
-}
 
 /* Boops */
 
