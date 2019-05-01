@@ -39,20 +39,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
 
-[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
-  margin-top: 10px;
-  margin-bottom: -3px;
-  padding-top: 10px;
-  padding-left: 10px;
-  display: block;
-  background: transparent;
-  border: 1px solid var(--Main-Colour);
-  border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Derp Bug Fix.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
-  text-align: center;
-  animation: CLog 10s infinite linear;
-  z-index: 9997;
-  color: var(--Main-Colour);
+
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -280,9 +267,7 @@ body:after {
   background: var(--Callout-Background) 50% 50%/cover !important;
 }
 
-.auth-background {
-  background: url(https://nfld99.com/Bkg/DOFpZY5.jpg) 50% 50%/cover !important;
-}
+
 
 form.deprecated.auth-form {
   background: rgba(0, 0, 0, .6) !important;
@@ -1401,11 +1386,7 @@ div.bd-dropdown {
   background: var(--Background-Colour) !important;
 }
 
-.guild-settings-modal-members {
-  border: 1px solid var(--Background-Colour) !important;
-  background-image: url(https://nfld99.com/Bkg/nekmRkx.jpg) !important;
-  background-size: cover;
-}
+
 
 .channel-textarea-autocomplete-inner {
   background: var(--Background-Colour);
@@ -1922,17 +1903,6 @@ div.tab-bar-item.selected {
   margin-bottom: 3px !important;
 }
 
-.checkbox .checkbox-inner span {
-  border-radius: 10px;
-  height: 22px;
-  width: 50px;
-  padding-bottom: 11px;
-  background-color: #a8a8a8 !important;
-  background-image: url(https://nfld99.com/Bkg/XVZz4KO.png) !important;
-  background-size: 44%;
-  background-repeat: no-repeat;
-  border: none;
-}
 
 .checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
   margin-left: 15px !important;
@@ -1953,18 +1923,7 @@ div.tab-bar-item.selected {
   transition: 500ms all;
 }
 
-.checkbox-3kaeSU .checkboxInner-3yjcPe span {
-  border-radius: 10px;
-  height: 22px;
-  width: 50px;
-  padding-bottom: 11px;
-  background-color: #a8a8a8 !important;
-  background-image: url(https://nfld99.com/Bkg/XVZz4KO.png) !important;
-  background-size: 44%;
-  background-repeat: no-repeat;
-  border: none;
-  transition: 500ms all;
-}
+
 
 .checkbox-3kaeSU .checkboxInner-3yjcPe input[type=checkbox]:checked+span:after {
   margin-left: 15px !important;
@@ -2108,38 +2067,7 @@ div.flex-spacer.flex-vertical form {
 
 /* nitro thing */
 
-.avatar-large[style*="a_"]+.comment .message.first .body-3rkFrF .username-wrapper:after {
-  content: url(https://nfld99.com/Bkg/rzf0lV7.png);
-  color: lime;
-  margin-left: 5px;
-  background: transparent;
-  line-height: 16px;
-  text-transform: uppercase;
-  vertical-align: bottom;
-  border-radius: 3px;
-  margin-left: 6px;
-  padding: 1px 2px;
-  font-size: 10px;
-  font-weight: 600;
-  cursor: text;
-}
 
-.member.member-status>.avatar-small[style*="a_"]+.member-inner .member-username:after {
-  content: '✔';
-  color: lime;
-  margin-left: 5px;
-  background: transparent;
-  line-height: 15px;
-  height: 14px;
-  text-transform: uppercase;
-  vertical-align: bottom;
-  border-radius: 3px;
-  margin-left: 6px;
-  padding: 1px 2px;
-  font-size: 10px;
-  font-weight: 600;
-  animation: rainbow 3s infinite linear;
-}
 
 .channel-textarea-autocomplete-inner .avatar-small[style*="a_"]+.discord-tag:after, .channel-textarea-autocomplete-inner .avatar-small[style*="a_"]+.username:after {
   content: '';
@@ -2724,8 +2652,6 @@ div.form-inner, .form-actions {
   color: var(--Main-Colour);
 }
 
-.theme-dark .image-2LqJex {
-  background-image: url(https://nfld99.com/Bkg/PBwzzZX.jpg);
 }
 
 .actionRed-1J19Tx, .actionRed-1J19Tx:hover {
@@ -2977,31 +2903,8 @@ div.form-inner, .form-actions {
 
 /* Search */
 
-/* .esc-text:after,.keybind-KpFkfr:after {
-  content: "Made By NFLD99";
-  font-size: 15px;
-} */
-/* water marks */
 
 
-#app-mount > div > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-2Thooq > div.accountDetails-3k9g4n.nameTag-m8r81H > span.discriminator:after {
-  content: "  NFLD99.com  " !important;
-  font-weight: bolder;
-}
-
-#app-mount > div > div > div > div > div > div > div > div > div > div > span.discriminator:after {
-  content: "  NFLD99.com  " !important;
-  font-weight: bolder;
-}
-/* water marks */
-
-.esc-text:after, .keybind-KpFkfr {
-  font-size: 0px;
-}
-
-.theme-dark .keybind-KpFkfr {
-  color: var(--M-Colour);
-}
 
 .theme-dark .closeButton-1tv5uR {
   border-color: var(--M-Colour);
@@ -3187,17 +3090,8 @@ div.form-inner, .form-actions {
   border: none;
 }
 
-/* Tac Nuke */
 
-.updateIconForeground-2jeItf {
-  fill: transparent;
-  background: url(https://nfld99.com/Bkg/80u9AQy.gif) 50% 50%/cover;
-}
 
-.iconInactive-g2AXfB[name="Update"] {
-  fill: transparent;
-  background: url(https://nfld99.com/Bkg/80u9AQy.gif) 50% 50%/cover!important;
-}
 
 /* Tac Nuke */
 
@@ -4196,14 +4090,6 @@ button.btn.btn-default {
   color: var(--Main-Colour);
 }
 
-.message-group .message .markup-2BOw-j a[href="https://discord.gg/kWRYPrq"], .markup-2BOw-j>a[href="https://discord.gg/kWRYPrq"] {
-  font-size: 0;
-}
-
-.message-group .message .markup-2BOw-j a[href="https://discord.gg/kWRYPrq"]:after, .markup-2BOw-j>a[href="https://discord.gg/kWRYPrq"]:after {
-  content: "NFLD99s Support Server";
-  color: var(--Main-Colour);
-  font-size: 15px;
 }
 
 #app-mount>div:nth-child(5)>div.modal-1UGdnR>div>div>div>div>div>div.inviteTitle-2yNtkC, .keyboard-shortcuts-modal .modal-title {
@@ -4647,15 +4533,6 @@ button.btn.btn-default {
   border-bottom-color: var(--M-Colour);
 }
 
-a[href="https://www.twitch.tv/NFLD99"] {
-  font-size: 0;
-}
-
-a[href="https://www.twitch.tv/NFLD99"]:after {
-  content: "NFLD99s Twitch";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
 
 a[href="https://github.com/Inve1951/BetterDiscordStuff"] {
   font-size: 0;
@@ -4677,76 +4554,9 @@ a[href="https://github.com/rauenzi/BetterDiscordAddons"]:after {
   font-size: 15px;
 }
 
-a[href="https://github.com/NFLD99/Better-Discord"] {
-  font-size: 0;
-}
 
-a[href="https://github.com/NFLD99/Better-Discord"]:after {
-  content: "NFLD99's repo";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
 
-a[href="https://nfld99.com/"] {
-  font-size: 0;
-}
 
-a[href="https://nfld99.com/"]:after {
-  content: "NFLD99's Website - Home Page";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
-
-/* 
-a[href="https://nfld99.com/main"] {
-  font-size: 0;
-}
-
-a[href="https://nfld99.com/main"]:after {
-  content: "NFLD99's Website - Main Themes";
-  color:var(--Main-Colour);
-  font-size: 15px;
-}
-
-a[href="https://nfld99.com/mini"] {
-  font-size: 0;
-}
-
-a[href="https://nfld99.com/mini"]:after {
-  content: "NFLD99's Website - Mini Themes";
-  color:var(--Main-Colour);
-  font-size: 15px;
-}
-
-a[href="https://nfld99.com/requested"] {
-  font-size: 0;
-}
-
-a[href="https://nfld99.com/requested"]:after {
-  content: "NFLD99's Website - Requested Themes";
-  color:var(--Main-Colour);
-  font-size: 15px;
-}
-
-a[href="https://nfld99.com/submitted"] {
-  font-size: 0;
-}
-
-a[href="https://nfld99.com/submitted"]:after {
-  content: "NFLD99's Website - Submited Themes";
-  color:var(--Main-Colour);
-  font-size: 15px;
-}
-
-a[href="https://nfld99.com/discord"] {
-  font-size: 0;
-}
-
-a[href="https://nfld99.com/discord"]:after {
-  content: "NFLD99's Website - Discord Invite";
-  color:var(--Main-Colour);
-  font-size: 15px;
-} */
 
 a[href="https://github.com/mwittrien/BetterDiscordAddons"] {
   font-size: 0;
@@ -5693,10 +5503,6 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   text-shadow: 0 0 6px rgba(0, 0, 0, .6), 0 0 6px rgba(0, 0, 0, .6), 0 0 5px rgba(0, 0, 0, .6), 0 0 4px rgba(0, 0, 0, .6);
 }
 
-.theme-dark .imageError-2OefUi {
-  background: url(https://nfld99.com/Bkg/96Ymjfy.png) 50% 50%/contain;
-  background-repeat: no-repeat!important;
-}
 
 .backgroundBlur-dazcBE, .theme-dark .pictureInPictureVideo-20ZvXn {
   background: transparent!important;
@@ -6595,15 +6401,6 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   background: transparent;
 }
 
-.theme-dark .contentWrapper-3WC1ID {
-  background-color: var(--S-Colour);
-  background-image: url(https://nfld99.com/Bkg/Mcvi43u.png);
-  background-size: contain;
-  height: 440px;
-  position: relative;
-  width: 920px;
-  animation: Popoutinvite 2s 1 linear;
-}
 
 .image-1SwJLX.loaded-1CMjvT {
   background: var(--Callout-Background) 50% 50%/cover !important;
@@ -6650,12 +6447,6 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   color: var(--Main-Colour);
 }
 
-.logo-2iEHEq {
-  background: url(https://nfld99.com/Bkg/UI9uFRU.png) 50% 50%/contain;
-  background-repeat: no-repeat;
-  width: 140px;
-  height: 70px;
-}
 
 .theme-dark .alt-3btY0e .helper-2c73HK {
   display: none;
@@ -6735,14 +6526,6 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   background-color: var(--Main-Colour);
   height: 100%;
   transition: width 35ms ease;
-}
-
-.inviteModal-34DdOm .scroller-3__pG8 {
-  background-color: var(--S-Colour);
-  background-image: url(https://nfld99.com/Bkg/EMb6GWq.png);
-  height: 100%;
-  position: relative;
-  width: 400px;
 }
 
 .inviteModal-34DdOm .button-ey5-M_ {
@@ -7698,10 +7481,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   color: var(--M-Colour);
 }
 
-.premiumPromo-yVfLiA>img {
-  content: url(https://nfld99.com/Bkg/mTBPNOQ.png);
-  height: 25%;
-}
+
 
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.wrap-ZIn9Iy.marginReset-236NPn>svg>g>polyline {
   stroke: var(--Main-Colour);
@@ -8580,11 +8360,6 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   font-size: 15px;
 }
 
-.theme-dark .text-GwUZgS:after {
-  content: " NFLD99.com/Discord";
-  color: var(--Main-Colour);
-  font-size: 15px;
-}
 
 .verified-3uJH7V>g>path:nth-child(2) {
   fill: var(--M-Colour);
@@ -8726,9 +8501,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   color: var(--Main-Colour);
 }
 
-.fullScreen-3DKbL8 {
-  background: url(https://nfld99.com/Bkg/1uIcwYm.png) 50% 50%/cover !important;
-}
+
 
 .ownerIcon-uZ6mE7 {
   height: 14px;
