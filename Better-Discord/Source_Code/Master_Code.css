@@ -10325,11 +10325,6 @@ transition: all 200ms;
   fill: var(--Background-Colour)!important;
 }
 
-.listItem-2P_4kh:hover > .wrapper-sa6paO > .item-2hkk8m{
-  background: transparent!important;
-  opacity: 0!important;
-  transform: translate3d(0px)!important;
-}
 
 .pill-2uzAFe{
   left: 0;
