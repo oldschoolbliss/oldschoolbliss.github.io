@@ -2983,7 +2983,6 @@ div.form-inner, .form-actions {
 } */
 /* water marks */
 .esc-text:after, .keybind-KpFkfr:after {
-  content: Return;
   animation: CLog 10s infinite linear;
 }
 
